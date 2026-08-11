@@ -1,0 +1,19 @@
+{
+  "name": "Dash",
+  "ticker": "DASH",
+  "symbol": "$DASH",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8776/web/",
+  "breed": "Dachshund",
+  "theme": "long boy speed, tunnel run",
+  "tagline": "Long boy. Short patience. Dash to the bags.",
+  "hook": "long dog dash, cash in a flash",
+  "image": "../assets/dash-pump.png",
+  "pump_image": "../assets/dash-pump.png",
+  "logo": "../assets/dash-logo.jpg"
+}

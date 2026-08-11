@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>$THOR — Thor · Rhodesian Ridgeback</title>
+  <meta name="description" content="From Asgard to Solana. Mjolnir math. Ridge on my back, bags in the sack. $THOR — gods don't paper hand." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="$THOR — Thor" />
+  <meta property="og:description" content="Lightning in the ledger. Valhalla green candles. Put the bags at my feet. $THOR." />
+  <meta property="og:image" content="../assets/thor-anim-hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="$THOR — Thor" />
+  <meta name="twitter:description" content="Lightning in the ledger. Valhalla green candles. Put the bags at my feet. $THOR." />
+  <meta name="twitter:image" content="../assets/thor-anim-hero.jpg" />
+  <meta name="theme-color" content="#c9a227" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700;900&family=Caveat:wght@400;700&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!--
+WORLD: Ransom / evidence board for a Solana dog meme coin — kraft night, polaroids, cut letters.
+MODE: Persuade. Norse storm god x Solana meme coin. Mjolnir, Asgard, Valhalla + bags, ridge, $THOR.
+-->
+  <a class="skip-link" href="#coin">Skip to coin</a>
+
+  <header class="top">
+    <a class="brand" href="#top">THOR</a>
+    <nav aria-label="Primary">
+      <a href="#coin">Coin</a>
+      <a href="#anthem">Anthem</a>
+      <a href="#story">Story</a>
+      <a href="#3d">3D</a>
+      <a href="#memes">Evidence</a>
+      <a href="#x">X</a>
+      <a href="#buy">Buy</a>
+    </nav>
+    <div class="top-social">
+      <a class="btn mini stamp-btn" id="headerFollow" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Follow</a>
+      <a class="btn mini" id="headerShare" href="#x">Share</a>
+    </div>
+  </header>
+
+  <main id="top" class="page">
+    <section id="coin" class="hero">
+      <div class="hero-left">
+        <div class="polaroid hero-polaroid">
+          <div class="tape tape-tl" aria-hidden="true"></div>
+          <div class="tape tape-tr" aria-hidden="true"></div>
+          <img class="hero-img" src="../assets/thor-anim-hero.jpg" alt="Thor the Rhodesian Ridgeback — character portrait" width="720" height="720" />
+          <p class="polaroid-caption">storm king</p>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="theme-chip"><i aria-hidden="true"></i> Rhodesian Ridgeback</p>
+        <div class="ransom-letters" aria-label="$THOR">
+          <span class="rl" style="--r:-4deg;--c:#c9a227;--ff:'Anton',sans-serif;--fs:clamp(3.2rem,10vw,5.2rem);">$</span>
+          <span class="rl" style="--r:-2deg;--c:#4a6fa5;--ff:'Anton',sans-serif;--fs:clamp(3.2rem,10vw,5.2rem);">T</span>
+          <span class="rl" style="--r:0deg;--c:#f5f5f5;--ff:'Anton',sans-serif;--fs:clamp(3.2rem,10vw,5.2rem);">H</span>
+          <span class="rl" style="--r:2deg;--c:#c9a227;--ff:'Anton',sans-serif;--fs:clamp(3.2rem,10vw,5.2rem);">O</span>
+          <span class="rl" style="--r:4deg;--c:#e8402f;--ff:'Anton',sans-serif;--fs:clamp(3.2rem,10vw,5.2rem);">R</span>
+        </div>
+        <p class="breed-line">Thor · Asgard exile · ridge like Mjolnir · bags of Valhalla</p>
+        <p class="ransom-tagline">From Asgard to the bags. Put them at my feet.</p>
+
+        <article class="coin-card" id="coinCard" aria-label="Token $THOR">
+          <div class="stamp stamp-tilt" aria-hidden="true">EVIDENCE</div>
+          <div class="coin-card-inner">
+            <div class="coin-card-top">
+              <img class="coin-icon" src="../assets/thor-pump.png" alt="Thor token" width="56" height="56" />
+              <div class="coin-titles">
+                <p class="coin-symbol" id="coinSymbol">$THOR</p>
+                <p class="coin-name" id="coinName">Thor</p>
+              </div>
+              <span class="coin-badge" id="coinBadge">WAITING</span>
+            </div>
+
+            <dl class="coin-meta">
+              <div>
+                <dt>Ticker</dt>
+                <dd id="metaTicker">$THOR</dd>
+              </div>
+              <div>
+                <dt>Chain</dt>
+                <dd id="metaChain">Solana</dd>
+              </div>
+              <div class="full">
+                <dt>Contract (CA)</dt>
+                <dd class="ca-line">
+                  <code id="caText">Contract address coming soon</code>
+                  <button class="btn mini" id="copyCa" type="button">Copy</button>
+                </dd>
+              </div>
+              <div class="full" id="xRow">
+                <dt>X / Twitter</dt>
+                <dd id="metaX"><a href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">@d151nf0rm4nt</a></dd>
+              </div>
+            </dl>
+
+            <div class="cta-row" id="coinActions">
+              <a class="btn primary" id="buyLink" href="#buy">Buy $THOR</a>
+              <a class="btn" id="pumpLink" href="#buy">Open on Pump</a>
+              <a class="btn ghost" id="chartLink" href="#" hidden target="_blank" rel="noopener">Chart</a>
+              <a class="btn stamp-btn" id="shareX" href="#x">Captions ↓</a>
+              <a class="btn ghost" id="followX" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Follow</a>
+            </div>
+            <p class="fine" id="coinHint">Official token page — the contract address appears here when live.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="anthem" class="panel">
+      <div class="section-head">
+        <h2>The Anthem</h2>
+        <p class="not">Exhibit A. Myth × bags. Live guitars. Masculine vocals. Full outro.</p>
+      </div>
+      <div class="player-card" id="playerCard">
+        <div class="player-meta">
+          <img class="player-art" src="../assets/thor-pump.png" alt="" width="64" height="64" />
+          <div>
+            <p class="player-title">$THOR — Asgard Anthem (groove metal)</p>
+            <p class="player-sub" id="playerStatus">Loading track…</p>
+          </div>
+        </div>
+        <audio id="dogAudio" class="jrzy-audio" controls preload="auto" playsinline>
+          <source src="../assets/audio/thor-rap.mp3?v=anthem3" type="audio/mpeg" />
+          <source src="../assets/audio/thor-metal.mp3?v=anthem3" type="audio/mpeg" />
+          <source src="../assets/audio/thor-anthem.mp3?v=anthem3" type="audio/mpeg" />
+        </audio>
+        <div class="cta-row player-actions">
+          <button class="btn primary mini" id="playToggle" type="button">Play</button>
+          <a class="btn mini" id="downloadTrack" href="../assets/audio/thor-rap.mp3" download="Thor-Asgard-Groove.mp3">Download MP3</a>
+        </div>
+        <p class="fine" id="audioHint" hidden>Track at <code>assets/audio/thor-rap.mp3</code> · lyrics in pack.</p>
+      </div>
+    </section>
+
+    <section id="story" class="panel">
+      <div class="section-head">
+        <h2>The Saga</h2>
+        <p class="not">Mythology × meme lore. Same storm. New chain.</p>
+      </div>
+      <div class="story-body">
+        <p><strong>Asgard fell.</strong> The bags rose. <strong>Thor</strong> — Rhodesian Ridgeback, storm king, ridge like the hammer — walked the rainbow bridge straight onto Solana.</p>
+        <p><em>Lightning in the ledger. Mjolnir on the chart.</em> He doesn't ask twice. Odin don't dump. The pack don't fold. Weak hands get mocked under Valhalla green candles.</p>
+        <p>Hook: <em>ridge on my back, bags in the sack</em>. From myth to the mint. From Asgard to Pump. Gods don't paper hand.</p>
+        <p>Bigger than the chart. Put the bags at my feet. <strong>$THOR.</strong> Too easy.</p>
+      </div>
+      <div class="story-accent">
+        <p class="handwrite">"Thor looked at the chart.<br/>The chart looked away first.<br/>Valhalla stayed green."</p>
+      </div>
+    </section>
+
+    <section id="3d" class="panel">
+      <div class="section-head">
+        <h2>3D Evidence</h2>
+        <p class="not">Exhibit B. Full body of the storm king — hammer-ridge, all four paws.</p>
+      </div>
+      <div class="model-viewer-wrap">
+        <model-viewer
+          id="meshViewer"
+          src="../assets/Thor.glb"
+          alt="3D model of Thor"
+          poster="../assets/trellis/thor-trellis-MAIN.jpg"
+          auto-rotate
+          rotation-per-second="28deg"
+          camera-controls
+          shadow-intensity="1"
+          environment-image="neutral"
+          exposure="1.15"
+          style="width:100%;height:min(52vh,480px);background:#15110d;"
+        ></model-viewer>
+      </div>
+      <p class="fine model-hint">Drag to inspect. Full-body brand mesh. Not a greytone plate.</p>
+      <div class="polaroid" style="max-width:260px;margin:1.25rem auto;">
+        <div class="tape tape-top" aria-hidden="true"></div>
+        <img src="../assets/trellis/thor-trellis-MAIN.jpg" alt="Thor Trellis MAIN plate" width="512" height="512" />
+        <p class="polaroid-caption">trellis MAIN</p>
+      </div>
+    </section>
+
+    <section id="memes" class="panel">
+      <div class="section-head">
+        <h2>Evidence Wall</h2>
+        <p class="not">Exhibit C–H. Relics from Asgard and the bag room.</p>
+      </div>
+      <div class="evidence-board" id="evidenceBoard">
+        <div class="polaroid ev tilt-l"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/thor-anim-hero.jpg" alt="Thor hero" width="400" height="400" /><p class="polaroid-caption">storm face</p></div>
+        <div class="polaroid ev tilt-r"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/thor-anim-fullbody.jpg" alt="Thor full body" width="400" height="400" /><p class="polaroid-caption">ridge / Mjolnir line</p></div>
+        <div class="polaroid ev tilt-l"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/thor-face-photo.jpg" alt="Thor identity plate" width="400" height="400" /><p class="polaroid-caption">identity</p></div>
+        <div class="polaroid ev tilt-r"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/thor-meme-sideeye.jpg" alt="Thor the look" width="400" height="400" /><p class="polaroid-caption">Odin stare</p></div>
+        <div class="polaroid ev tilt-l"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/thor-meme-boss.jpg" alt="Thor boss mode" width="400" height="400" /><p class="polaroid-caption">Valhalla mode</p></div>
+        <div class="polaroid ev tilt-r"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/thor-logo.jpg" alt="Thor mark" width="400" height="400" /><p class="polaroid-caption">$THOR mark</p></div>
+      </div>
+    </section>
+
+    <section id="video" class="panel">
+      <div class="section-head">
+        <h2>Asgard Arrival</h2>
+        <p class="not">Exhibit I. Lightning strikes. Storm king materializes. Full Asgardian getup.</p>
+      </div>
+      <div class="video-frame" style="position:relative;max-width:960px;margin:0 auto;border-radius:8px;overflow:hidden;border:1px solid #3d342a;background:#0a0806;">
+        <video
+          id="asgardArrival"
+          controls
+          playsinline
+          preload="metadata"
+          poster="../assets/thor-asgard-03-arrived.jpg"
+          style="width:100%;display:block;background:#000;"
+        >
+          <source src="../assets/thor-asgard-arrival.mp4?v=1" type="video/mp4" />
+        </video>
+        <p class="fine" style="padding:10px 14px;margin:0;">Imagine stills · cinematic lightning arrival · slow push-in</p>
+      </div>
+      <div class="evidence-board" style="margin-top:1.25rem;">
+        <div class="polaroid ev tilt-l"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/thor-asgard-01-sky-charge.jpg" alt="Sky charge" width="400" height="225" /><p class="polaroid-caption">sky charge</p></div>
+        <div class="polaroid ev tilt-r"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/thor-asgard-02-lightning-materialize.jpg" alt="Materialize" width="400" height="225" /><p class="polaroid-caption">ball of lightning</p></div>
+        <div class="polaroid ev tilt-l"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/thor-asgard-03-arrived.jpg" alt="Arrived" width="400" height="225" /><p class="polaroid-caption">arrived</p></div>
+      </div>
+    </section>
+
+    <section id="x" class="panel">
+      <div class="section-head">
+        <h2>Copy → Paste on X</h2>
+        <p class="not" id="xBlurb">We write the posts. You copy, open X, paste, post.</p>
+      </div>
+      <div class="cta-row">
+        <a class="btn stamp-btn" id="xFollowMain" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Open @d151nf0rm4nt</a>
+        <a class="btn" id="xCompose" href="https://x.com/compose/post" target="_blank" rel="noopener">Open X compose</a>
+      </div>
+      <div id="captionPack" class="caption-pack" aria-label="Ready captions"></div>
+      <p class="fine" id="captionNote">When the coin is live, these auto-append CA + Pump link.</p>
+    </section>
+
+    <section id="buy" class="panel">
+      <div class="section-head">
+        <h2>How to Buy</h2>
+        <p class="not">Put the money in the bag. Gods don't paper hand.</p>
+      </div>
+      <ol class="buy-steps">
+        <li><span class="step-num">1</span> Get a Solana wallet (Phantom).</li>
+        <li><span class="step-num">2</span> Get some SOL.</li>
+        <li><span class="step-num">3</span> Open Pump when live.</li>
+        <li><span class="step-num">4</span> Buy $THOR. Enter Valhalla. Too easy.</li>
+      </ol>
+      <p><a id="pumpLinkBuy" class="btn primary big" href="#buy">Open on Pump</a></p>
+      <p class="fine">Not financial advice. DYOR. Verify CA.</p>
+    </section>
+
+    <section class="panel roadmap-section">
+      <div class="section-head">
+        <h2>Operation</h2>
+      </div>
+      <div class="steps">
+        <div><span>1</span> Bridge opens</div>
+        <div><span>2</span> Hammer drops</div>
+        <div><span>3</span> Bags rise</div>
+        <div><span>4</span> Valhalla</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <p><strong>$THOR</strong> · Storm king · ridge like Mjolnir · Asgard to Solana</p>
+    <p><a href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">@d151nf0rm4nt</a> · not financial advice</p>
+  </footer>
+
+  <script>
+  (function () {
+    const CAPTIONS = [
+      "From Asgard to Solana. Lightning in the ledger. $THOR",
+      "Ridge on my back like Mjolnir. Bags in the sack. $THOR",
+      "Valhalla green candles. Weak hands get mocked. Gods don't paper hand. $THOR",
+      "Odin don't dump. The pack don't fold. Put the bags at my feet. $THOR",
+      "Asgard to Pump. Myth to mint. Storm king never soft. $THOR",
+      "Bigger than the chart. Hammer of the gods. Too easy. $THOR"
+    ];
+    const symbol = "$THOR";
+    const name = "Thor";
+    const slug = "thor";
+
+    function copyText(t, btn) {
+      navigator.clipboard?.writeText(t).then(() => {
+        if (!btn) return;
+        const old = btn.textContent;
+        btn.textContent = "Copied";
+        setTimeout(() => (btn.textContent = old), 1200);
+      }).catch(() => alert(t));
+    }
+
+    function renderCaptions(extra) {
+      const pack = document.getElementById("captionPack");
+      if (!pack) return;
+      pack.innerHTML = "";
+      CAPTIONS.forEach((c, i) => {
+        const text = extra ? c + "\n" + extra : c;
+        const row = document.createElement("div");
+        row.className = "caption-row";
+        row.style.cssText = "margin:12px 0;padding:14px 16px;background:#2a2218;border:1px solid #3d342a;border-radius:8px;";
+        const pre = document.createElement("pre");
+        pre.style.cssText = "margin:0 0 10px;white-space:pre-wrap;font-family:inherit;font-size:0.95rem;line-height:1.45;";
+        pre.textContent = text;
+        const btn = document.createElement("button");
+        btn.className = "btn mini";
+        btn.type = "button";
+        btn.textContent = "Copy " + (i + 1);
+        btn.onclick = () => copyText(text, btn);
+        row.appendChild(pre);
+        row.appendChild(btn);
+        pack.appendChild(row);
+      });
+    }
+
+    async function loadCoin() {
+      let c = {};
+      try {
+        c = await (await fetch("coin.json", { cache: "no-store" })).json();
+      } catch (e) {}
+      const ca = (c.ca || "").trim();
+      const pump = (c.pump || "").trim();
+      const live = !!ca;
+      const card = document.getElementById("coinCard");
+      const badge = document.getElementById("coinBadge");
+      const caText = document.getElementById("caText");
+      const hint = document.getElementById("coinHint");
+      const copyCa = document.getElementById("copyCa");
+      const buyLink = document.getElementById("buyLink");
+      const pumpLink = document.getElementById("pumpLink");
+      const pumpLinkBuy = document.getElementById("pumpLinkBuy");
+      const chartLink = document.getElementById("chartLink");
+
+      if (live) {
+        card.classList.add("is-live");
+        badge.textContent = "LIVE";
+        badge.classList.add("live");
+        caText.textContent = ca;
+        copyCa.onclick = () => copyText(ca, copyCa);
+        const pumpUrl = pump || ("https://pump.fun/coin/" + ca);
+        buyLink.href = pumpUrl;
+        pumpLink.href = pumpUrl;
+        pumpLinkBuy.href = pumpUrl;
+        chartLink.hidden = false;
+        chartLink.href = "https://dexscreener.com/solana/" + ca;
+        hint.textContent = "Verify CA in wallet. Copy a caption below and paste on X.";
+        renderCaptions(symbol + " " + pumpUrl + "\nCA: " + ca);
+        document.getElementById("captionNote").textContent = "Coin is live. Captions include CA + Pump.";
+      } else {
+        badge.textContent = "WAITING";
+        caText.textContent = "Not live yet — check back soon.";
+        copyCa.onclick = () => alert("Not live yet.");
+        const block = (e) => { e.preventDefault(); alert("Coming soon."); };
+        buyLink.onclick = block;
+        pumpLink.onclick = block;
+        pumpLinkBuy.onclick = block;
+        renderCaptions("");
+      }
+    }
+
+    (function setupAudio() {
+      const audio = document.getElementById("dogAudio");
+      const status = document.getElementById("playerStatus");
+      const hint = document.getElementById("audioHint");
+      const playToggle = document.getElementById("playToggle");
+      const card = document.getElementById("playerCard");
+      const download = document.getElementById("downloadTrack");
+      if (!audio) return;
+      const bust = "?v=anthem3";
+      const candidates = [
+        "../assets/audio/" + slug + "-rap.mp3" + bust,
+        "../assets/audio/" + slug + "-metal.mp3" + bust,
+        "../assets/audio/" + slug + "-anthem.mp3" + bust,
+      ];
+      let idx = 0;
+      function trySource(i) {
+        if (i >= candidates.length) {
+          status.textContent = "No MP3 yet — lyrics packed";
+          if (hint) hint.hidden = false;
+          card.classList.add("missing");
+          playToggle.disabled = true;
+          return;
+        }
+        idx = i;
+        audio.src = candidates[i];
+        audio.load();
+      }
+      function markReady() {
+        if (!isFinite(audio.duration) || audio.duration === 0) return;
+        const m = Math.floor(audio.duration / 60) || 0;
+        const s = String(Math.floor(audio.duration % 60) || 0).padStart(2, "0");
+        status.textContent = "Asgard groove metal · " + m + ":" + s;
+        if (hint) hint.hidden = true;
+        card.classList.remove("missing");
+        playToggle.disabled = false;
+        if (download) {
+          download.href = candidates[idx].split("?")[0];
+          download.setAttribute("download", "Thor-Asgard-Groove.mp3");
+        }
+      }
+      audio.addEventListener("loadedmetadata", markReady);
+      audio.addEventListener("canplay", markReady);
+      audio.addEventListener("error", () => trySource(idx + 1));
+      audio.addEventListener("play", () => { playToggle.textContent = "Pause"; card.classList.add("playing"); });
+      audio.addEventListener("pause", () => { playToggle.textContent = "Play"; card.classList.remove("playing"); });
+      playToggle.onclick = () => { if (audio.paused) audio.play().catch(() => {}); else audio.pause(); };
+      trySource(0);
+    })();
+
+    (function setupVideoTimestamp() {
+      const ts = document.querySelector(".rec-timestamp");
+      if (!ts) return;
+      let sec = 0;
+      setInterval(() => {
+        sec++;
+        const h = String(Math.floor(sec / 3600)).padStart(2, "0");
+        const m = String(Math.floor((sec % 3600) / 60)).padStart(2, "0");
+        const s = String(sec % 60).padStart(2, "0");
+        ts.textContent = h + ":" + m + ":" + s;
+      }, 1000);
+    })();
+
+    loadCoin();
+  })();
+  </script>
+</body>
+</html>

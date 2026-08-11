@@ -1,0 +1,19 @@
+{
+  "name": "Sunny",
+  "ticker": "SUN",
+  "symbol": "$SUN",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8770/web/",
+  "breed": "Golden Retriever",
+  "theme": "golden retriever of bags, forever friend energy",
+  "tagline": "Retrieves bags. Never dumps friends. Always golden.",
+  "hook": "golden coat, never sold the boat",
+  "image": "../assets/sunny-pump.png",
+  "pump_image": "../assets/sunny-pump.png",
+  "logo": "../assets/sunny-logo.jpg"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Tank",
+  "ticker": "TANK",
+  "symbol": "$TANK",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8772/web/",
+  "breed": "Rottweiler",
+  "theme": "armor jaw, unstoppable",
+  "tagline": "Armor up. Jaw set. The chart doesn't move me. I move it.",
+  "hook": "tank mode on, bags never gone",
+  "image": "../assets/tank-pump.png",
+  "pump_image": "../assets/tank-pump.png",
+  "logo": "../assets/tank-logo.jpg"
+}

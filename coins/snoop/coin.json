@@ -1,0 +1,19 @@
+{
+  "name": "Snoop",
+  "ticker": "SNP",
+  "symbol": "$SNP",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8778/web/",
+  "breed": "Beagle",
+  "theme": "nose for alpha, howl hooks",
+  "tagline": "Nose on the alpha. Howl on the hook. Bags found.",
+  "hook": "snoop the chart, never sold the art",
+  "image": "../assets/snoop-pump.png",
+  "pump_image": "../assets/snoop-pump.png",
+  "logo": "../assets/snoop-logo.jpg"
+}

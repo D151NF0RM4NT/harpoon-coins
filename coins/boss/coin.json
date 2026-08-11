@@ -1,0 +1,19 @@
+{
+  "name": "Boss",
+  "ticker": "BOSS",
+  "symbol": "$BOSS",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8769/web/",
+  "breed": "French Bulldog",
+  "theme": "compact king, side-eye CEO",
+  "tagline": "Short legs. Long bags. Board meeting in the yard.",
+  "hook": "bat ears up, bags filled up",
+  "image": "../assets/boss-pump.png",
+  "pump_image": "../assets/boss-pump.png",
+  "logo": "../assets/boss-logo.jpg"
+}

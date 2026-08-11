@@ -1,0 +1,19 @@
+{
+  "name": "Loaf",
+  "ticker": "LOAF",
+  "symbol": "$LOAF",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8775/web/",
+  "breed": "Corgi",
+  "theme": "low-rider loaf, royal stub",
+  "tagline": "Low clearance. High bags. Royal loaf status.",
+  "hook": "loaf on the road, bags overload",
+  "image": "../assets/loaf-pump.png",
+  "pump_image": "../assets/loaf-pump.png",
+  "logo": "../assets/loaf-logo.jpg"
+}

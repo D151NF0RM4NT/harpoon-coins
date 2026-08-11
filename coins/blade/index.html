@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>$BLD — Blade · Doberman</title>
+  <meta name="description" content="Sharp lines. Sharper entry. Cut the noise. $BLD on Solana. Doberman meme coin." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="$BLD — Blade" />
+  <meta property="og:description" content="Sharp lines. Sharper entry. Cut the noise." />
+  <meta property="og:image" content="../assets/blade-anim-hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="$BLD — Blade" />
+  <meta name="twitter:description" content="Sharp lines. Sharper entry. Cut the noise." />
+  <meta name="twitter:image" content="../assets/blade-anim-hero.jpg" />
+  <meta name="theme-color" content="#1c1c1c" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700;900&family=Caveat:wght@400;700&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!--
+WORLD: Ransom / evidence board for a Solana dog meme coin — kraft night, polaroids, cut letters.
+MODE: Persuade. The dog IS the product. Theme: slim threat, precision.
+-->
+  <a class="skip-link" href="#coin">Skip to coin</a>
+
+  <header class="top">
+    <a class="brand" href="#top">BLADE</a>
+    <nav aria-label="Primary">
+      <a href="#coin">Coin</a>
+      <a href="#anthem">Anthem</a>
+      <a href="#story">Story</a>
+      <a href="#3d">3D</a>
+      <a href="#memes">Evidence</a>
+      <a href="#x">X</a>
+      <a href="#buy">Buy</a>
+    </nav>
+    <div class="top-social">
+      <a class="btn mini stamp-btn" id="headerFollow" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Follow</a>
+      <a class="btn mini" id="headerShare" href="#x">Share</a>
+    </div>
+  </header>
+
+  <main id="top" class="page">
+    <section id="coin" class="hero">
+      <div class="hero-left">
+        <div class="polaroid hero-polaroid">
+          <div class="tape tape-tl" aria-hidden="true"></div>
+          <div class="tape tape-tr" aria-hidden="true"></div>
+          <img class="hero-img" src="../assets/blade-anim-hero.jpg" alt="Blade the Doberman — character portrait" width="720" height="720" />
+          <p class="polaroid-caption">the suspect</p>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="theme-chip"><i aria-hidden="true"></i> Doberman</p>
+        <div class="ransom-letters" aria-label="$BLD">
+          <span class="rl" style="--r:-4deg;--c:#1c1c1c;--ff:'Anton',sans-serif;--fs:clamp(3.2rem,10vw,5.2rem);">$</span>
+          <span class="rl" style="--r:-2deg;--c:#a52a2a;--ff:'Anton',sans-serif;--fs:clamp(3.2rem,10vw,5.2rem);">B</span>
+          <span class="rl" style="--r:0deg;--c:#f5f5f5;--ff:'Anton',sans-serif;--fs:clamp(3.2rem,10vw,5.2rem);">L</span>
+          <span class="rl" style="--r:2deg;--c:#1c1c1c;--ff:'Anton',sans-serif;--fs:clamp(3.2rem,10vw,5.2rem);">D</span>
+        </div>
+        <p class="breed-line">Blade · theme: slim threat, precision</p>
+        <p class="ransom-tagline">Sharp lines. Sharper entry. Cut the noise.</p>
+
+        <article class="coin-card" id="coinCard" aria-label="Token $BLD">
+          <div class="stamp stamp-tilt" aria-hidden="true">EVIDENCE</div>
+          <div class="coin-card-inner">
+            <div class="coin-card-top">
+              <img class="coin-icon" src="../assets/blade-pump.png" alt="Blade token" width="56" height="56" />
+              <div class="coin-titles">
+                <p class="coin-symbol" id="coinSymbol">$BLD</p>
+                <p class="coin-name" id="coinName">Blade</p>
+              </div>
+              <span class="coin-badge" id="coinBadge">WAITING</span>
+            </div>
+
+            <dl class="coin-meta">
+              <div>
+                <dt>Ticker</dt>
+                <dd id="metaTicker">$BLD</dd>
+              </div>
+              <div>
+                <dt>Chain</dt>
+                <dd id="metaChain">Solana</dd>
+              </div>
+              <div class="full">
+                <dt>Contract (CA)</dt>
+                <dd class="ca-line">
+                  <code id="caText">Contract address coming soon</code>
+                  <button class="btn mini" id="copyCa" type="button">Copy</button>
+                </dd>
+              </div>
+              <div class="full" id="xRow">
+                <dt>X / Twitter</dt>
+                <dd id="metaX"><a href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">@d151nf0rm4nt</a></dd>
+              </div>
+            </dl>
+
+            <div class="cta-row" id="coinActions">
+              <a class="btn primary" id="buyLink" href="#buy">Buy $BLD</a>
+              <a class="btn" id="pumpLink" href="#buy">Open on Pump</a>
+              <a class="btn ghost" id="chartLink" href="#" hidden target="_blank" rel="noopener">Chart</a>
+              <a class="btn stamp-btn" id="shareX" href="#x">Captions ↓</a>
+              <a class="btn ghost" id="followX" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Follow</a>
+            </div>
+            <p class="fine" id="coinHint">Official token page — the contract address appears here when live.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="anthem" class="panel">
+      <div class="section-head">
+        <h2>The Anthem</h2>
+        <p class="not">Exhibit A. Audio evidence. Name on the hook.</p>
+      </div>
+      <div class="player-card" id="playerCard">
+        <div class="player-meta">
+          <img class="player-art" src="../assets/blade-pump.png" alt="" width="64" height="64" />
+          <div>
+            <p class="player-title">$BLD — Blade Anthem</p>
+            <p class="player-sub" id="playerStatus">Checking track…</p>
+          </div>
+        </div>
+        <audio id="dogAudio" class="jrzy-audio" controls preload="metadata" playsinline controlslist="nodownload">
+          <source src="../assets/audio/blade-rap.mp3" type="audio/mpeg" />
+        </audio>
+        <div class="cta-row player-actions">
+          <button class="btn primary mini" id="playToggle" type="button">Play</button>
+          <a class="btn mini" id="downloadTrack" href="../assets/audio/blade-rap.mp3" download="Blade-Anthem.mp3">Download MP3</a>
+        </div>
+        <p class="fine" id="audioHint">Lyrics ready in <code>BLADE_PACK/06_audio/lyrics.txt</code>. Drop ACE export at <code>assets/audio/blade-rap.mp3</code>.</p>
+      </div>
+    </section>
+
+    <section id="story" class="panel">
+      <div class="section-head">
+        <h2>The Story</h2>
+      </div>
+      <div class="story-body">
+        <p>Sharp lines. Sharper entry. Cut the noise.</p>
+        <p><strong>Blade</strong> is a Doberman. Theme spine: slim threat, precision.</p>
+        <p>Hook: <em>blade thin, bags thick within</em>. The bags already know the assignment. Cute face. Hard math.</p>
+      </div>
+      <div class="story-accent">
+        <p class="handwrite">"Blade looked at the chart.<br/>The chart looked away first."</p>
+      </div>
+    </section>
+
+    <section id="3d" class="panel">
+      <div class="section-head">
+        <h2>3D Evidence</h2>
+        <p class="not">Exhibit B. Full body scan of the suspect.</p>
+      </div>
+      <div class="model-viewer-wrap">
+        <model-viewer
+          id="meshViewer"
+          src="../assets/Blade.glb"
+          alt="3D model of Blade"
+          poster="../assets/trellis/blade-trellis-MAIN.jpg"
+          auto-rotate
+          rotation-per-second="28deg"
+          camera-controls
+          shadow-intensity="1"
+          environment-image="neutral"
+          exposure="1.15"
+          style="width:100%;height:min(52vh,480px);background:#15110d;"
+        ></model-viewer>
+      </div>
+      <p class="fine model-hint">Drag to inspect. GLB lands at <code>assets/Blade.glb</code> after Trellis2. Greytone plate below.</p>
+      <div class="polaroid" style="max-width:260px;margin:1.25rem auto;">
+        <div class="tape tape-top" aria-hidden="true"></div>
+        <img src="../assets/trellis/blade-trellis-MAIN.jpg" alt="Blade Trellis MAIN plate" width="512" height="512" />
+        <p class="polaroid-caption">trellis MAIN</p>
+      </div>
+    </section>
+
+    <section id="memes" class="panel">
+      <div class="section-head">
+        <h2>Evidence Wall</h2>
+        <p class="not">Exhibit C–H. Photographic + character evidence.</p>
+      </div>
+      <div class="evidence-board" id="evidenceBoard">
+        <div class="polaroid ev tilt-l"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/blade-anim-hero.jpg" alt="Blade hero" width="400" height="400" /><p class="polaroid-caption">hero</p></div>
+        <div class="polaroid ev tilt-r"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/blade-anim-fullbody.jpg" alt="Blade full body" width="400" height="400" /><p class="polaroid-caption">full body</p></div>
+        <div class="polaroid ev tilt-l"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/blade-face-photo.jpg" alt="Blade identity plate" width="400" height="400" /><p class="polaroid-caption">identity</p></div>
+        <div class="polaroid ev tilt-r"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/blade-meme-sideeye.jpg" alt="Blade the look" width="400" height="400" /><p class="polaroid-caption">the look</p></div>
+        <div class="polaroid ev tilt-l"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/blade-meme-boss.jpg" alt="Blade boss mode" width="400" height="400" /><p class="polaroid-caption">boss mode</p></div>
+        <div class="polaroid ev tilt-r"><div class="tape tape-top" aria-hidden="true"></div><img src="../assets/blade-logo.jpg" alt="Blade mark" width="400" height="400" /><p class="polaroid-caption">the mark</p></div>
+      </div>
+    </section>
+
+    <section id="video" class="panel">
+      <div class="section-head">
+        <h2>Surveillance Footage</h2>
+        <p class="not">Exhibit I. Video last — after stills, mesh, and anthem.</p>
+      </div>
+      <div class="video-placeholder" id="videoPlaceholder">
+        <div class="video-frame">
+          <img src="../assets/blade-anim-hero.jpg" alt="" class="video-poster" width="960" height="540" />
+          <div class="video-overlay">
+            <div class="rec-dot" aria-hidden="true"></div>
+            <span class="rec-label">REC</span>
+            <span class="rec-timestamp">00:00:00</span>
+          </div>
+          <div class="video-cta">
+            <p>Footage pending.</p>
+            <p class="fine">Audio evidence above when ACE lands.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="x" class="panel">
+      <div class="section-head">
+        <h2>Copy → Paste on X</h2>
+        <p class="not" id="xBlurb">We write the posts. You copy, open X, paste, post.</p>
+      </div>
+      <div class="cta-row">
+        <a class="btn stamp-btn" id="xFollowMain" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Open @d151nf0rm4nt</a>
+        <a class="btn" id="xCompose" href="https://x.com/compose/post" target="_blank" rel="noopener">Open X compose</a>
+      </div>
+      <div id="captionPack" class="caption-pack" aria-label="Ready captions"></div>
+      <p class="fine" id="captionNote">When the coin is live, these auto-append CA + Pump link.</p>
+    </section>
+
+    <section id="buy" class="panel">
+      <div class="section-head">
+        <h2>How to Buy</h2>
+        <p class="not">Put the money in the bag.</p>
+      </div>
+      <ol class="buy-steps">
+        <li><span class="step-num">1</span> Get a Solana wallet (Phantom).</li>
+        <li><span class="step-num">2</span> Get some SOL.</li>
+        <li><span class="step-num">3</span> Open Pump when live.</li>
+        <li><span class="step-num">4</span> Buy $BLD. Too easy.</li>
+      </ol>
+      <p><a id="pumpLinkBuy" class="btn primary big" href="#buy">Open on Pump</a></p>
+      <p class="fine">Not financial advice. DYOR. Verify CA.</p>
+    </section>
+
+    <section class="panel roadmap-section">
+      <div class="section-head">
+        <h2>Operation</h2>
+      </div>
+      <div class="steps">
+        <div><span>1</span> Launch</div>
+        <div><span>2</span> Memes</div>
+        <div><span>3</span> Louder attitude</div>
+        <div><span>4</span> Still too easy</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <p><strong>$BLD</strong> · Blade the Doberman</p>
+    <p><a href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">@d151nf0rm4nt</a> · not financial advice</p>
+  </footer>
+
+  <script>
+  (function () {
+    const CAPTIONS = ["Sharp lines. Sharper entry. Cut the noise. $BLD", "Meet Blade. Doberman. blade thin, bags thick within. $BLD", "Blade said put the money in the bag. $BLD", "Theme: slim threat, precision. Chart later. $BLD", "Too easy. Blade already knew. $BLD"];
+    const symbol = "$BLD";
+    const name = "Blade";
+    const slug = "blade";
+
+    function copyText(t, btn) {
+      navigator.clipboard?.writeText(t).then(() => {
+        if (!btn) return;
+        const old = btn.textContent;
+        btn.textContent = "Copied";
+        setTimeout(() => (btn.textContent = old), 1200);
+      }).catch(() => alert(t));
+    }
+
+    function renderCaptions(extra) {
+      const pack = document.getElementById("captionPack");
+      if (!pack) return;
+      pack.innerHTML = "";
+      CAPTIONS.forEach((c, i) => {
+        const text = extra ? c + "\n" + extra : c;
+        const row = document.createElement("div");
+        row.className = "caption-row";
+        row.style.cssText = "margin:12px 0;padding:14px 16px;background:#2a2218;border:1px solid #3d342a;border-radius:8px;";
+        const pre = document.createElement("pre");
+        pre.style.cssText = "margin:0 0 10px;white-space:pre-wrap;font-family:inherit;font-size:0.95rem;line-height:1.45;";
+        pre.textContent = text;
+        const btn = document.createElement("button");
+        btn.className = "btn mini";
+        btn.type = "button";
+        btn.textContent = "Copy " + (i + 1);
+        btn.onclick = () => copyText(text, btn);
+        row.appendChild(pre);
+        row.appendChild(btn);
+        pack.appendChild(row);
+      });
+    }
+
+    async function loadCoin() {
+      let c = {};
+      try {
+        c = await (await fetch("coin.json", { cache: "no-store" })).json();
+      } catch (e) {}
+      const ca = (c.ca || "").trim();
+      const pump = (c.pump || "").trim();
+      const live = !!ca;
+      const card = document.getElementById("coinCard");
+      const badge = document.getElementById("coinBadge");
+      const caText = document.getElementById("caText");
+      const hint = document.getElementById("coinHint");
+      const copyCa = document.getElementById("copyCa");
+      const buyLink = document.getElementById("buyLink");
+      const pumpLink = document.getElementById("pumpLink");
+      const pumpLinkBuy = document.getElementById("pumpLinkBuy");
+      const chartLink = document.getElementById("chartLink");
+
+      if (live) {
+        card.classList.add("is-live");
+        badge.textContent = "LIVE";
+        badge.classList.add("live");
+        caText.textContent = ca;
+        copyCa.onclick = () => copyText(ca, copyCa);
+        const pumpUrl = pump || ("https://pump.fun/coin/" + ca);
+        buyLink.href = pumpUrl;
+        pumpLink.href = pumpUrl;
+        pumpLinkBuy.href = pumpUrl;
+        chartLink.hidden = false;
+        chartLink.href = "https://dexscreener.com/solana/" + ca;
+        hint.textContent = "Verify CA in wallet. Copy a caption below and paste on X.";
+        renderCaptions(symbol + " " + pumpUrl + "\nCA: " + ca);
+        document.getElementById("captionNote").textContent = "Coin is live. Captions include CA + Pump.";
+      } else {
+        badge.textContent = "WAITING";
+        caText.textContent = "Not live yet — check back soon.";
+        copyCa.onclick = () => alert("Not live yet.");
+        const block = (e) => { e.preventDefault(); alert("Coming soon."); };
+        buyLink.onclick = block;
+        pumpLink.onclick = block;
+        pumpLinkBuy.onclick = block;
+        renderCaptions("");
+      }
+    }
+
+    (function setupAudio() {
+      const audio = document.getElementById("dogAudio");
+      const status = document.getElementById("playerStatus");
+      const hint = document.getElementById("audioHint");
+      const playToggle = document.getElementById("playToggle");
+      const card = document.getElementById("playerCard");
+      if (!audio) return;
+      const candidates = [
+        "../assets/audio/" + slug + "-rap.mp3",
+        "../assets/audio/" + slug + "-anthem.mp3",
+      ];
+      let idx = 0;
+      function trySource(i) {
+        if (i >= candidates.length) {
+          status.textContent = "No MP3 yet — lyrics packed";
+          hint.hidden = false;
+          card.classList.add("missing");
+          playToggle.disabled = true;
+          return;
+        }
+        idx = i;
+        audio.src = candidates[i];
+        audio.load();
+      }
+      audio.addEventListener("loadedmetadata", () => {
+        if (!isFinite(audio.duration) || audio.duration === 0) return;
+        const m = Math.floor(audio.duration / 60) || 0;
+        const s = String(Math.floor(audio.duration % 60) || 0).padStart(2, "0");
+        status.textContent = "Ready · " + m + ":" + s;
+        hint.hidden = true;
+        card.classList.remove("missing");
+        playToggle.disabled = false;
+        document.getElementById("downloadTrack").href = candidates[idx];
+      });
+      audio.addEventListener("error", () => trySource(idx + 1));
+      audio.addEventListener("play", () => { playToggle.textContent = "Pause"; card.classList.add("playing"); });
+      audio.addEventListener("pause", () => { playToggle.textContent = "Play"; card.classList.remove("playing"); });
+      playToggle.onclick = () => { if (audio.paused) audio.play().catch(() => {}); else audio.pause(); };
+      trySource(0);
+    })();
+
+    (function setupVideoTimestamp() {
+      const ts = document.querySelector(".rec-timestamp");
+      if (!ts) return;
+      let sec = 0;
+      setInterval(() => {
+        sec++;
+        const h = String(Math.floor(sec / 3600)).padStart(2, "0");
+        const m = String(Math.floor((sec % 3600) / 60)).padStart(2, "0");
+        const s = String(sec % 60).padStart(2, "0");
+        ts.textContent = h + ":" + m + ":" + s;
+      }, 1000);
+    })();
+
+    loadCoin();
+  })();
+  </script>
+</body>
+</html>

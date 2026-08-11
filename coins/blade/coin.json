@@ -1,0 +1,19 @@
+{
+  "name": "Blade",
+  "ticker": "BLD",
+  "symbol": "$BLD",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8773/web/",
+  "breed": "Doberman",
+  "theme": "slim threat, precision",
+  "tagline": "Sharp lines. Sharper entry. Cut the noise.",
+  "hook": "blade thin, bags thick within",
+  "image": "../assets/blade-pump.png",
+  "pump_image": "../assets/blade-pump.png",
+  "logo": "../assets/blade-logo.jpg"
+}

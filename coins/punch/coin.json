@@ -1,0 +1,19 @@
+{
+  "name": "Punch",
+  "ticker": "PNCH",
+  "symbol": "$PNCH",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8779/web/",
+  "breed": "Boxer",
+  "theme": "bounce, underbite grin",
+  "tagline": "Underbite. Overdeliver. Punch the red candles out.",
+  "hook": "punch the dips, grin on the lips",
+  "image": "../assets/punch-pump.png",
+  "pump_image": "../assets/punch-pump.png",
+  "logo": "../assets/punch-logo.jpg"
+}

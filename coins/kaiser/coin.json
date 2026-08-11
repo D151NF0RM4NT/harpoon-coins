@@ -1,0 +1,19 @@
+{
+  "name": "Kaiser",
+  "ticker": "KSR",
+  "symbol": "$KSR",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8768/web/",
+  "breed": "German Shepherd",
+  "theme": "command, patrol, loyal alpha",
+  "tagline": "Orders given. Bags secured. Heel to the green candle.",
+  "hook": "shepherd the bags, alpha of the packs",
+  "image": "../assets/kaiser-pump.png",
+  "pump_image": "../assets/kaiser-pump.png",
+  "logo": "../assets/kaiser-logo.jpg"
+}

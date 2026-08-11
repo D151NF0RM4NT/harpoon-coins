@@ -1,0 +1,19 @@
+{
+  "name": "Pearl",
+  "ticker": "PRL",
+  "symbol": "$PRL",
+  "chain": "Solana",
+  "ca": "",
+  "pump": "",
+  "status": "pending",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "http://10.0.0.144:8785/web/",
+  "breed": "Maltese",
+  "theme": "tiny diamond drip",
+  "tagline": "Tiny. Diamond. Drip. Pearl doesn't ask \u2014 she collects.",
+  "hook": "pearl on the chain, bags in the lane",
+  "image": "../assets/pearl-pump.png",
+  "pump_image": "../assets/pearl-pump.png",
+  "logo": "../assets/pearl-logo.jpg"
+}
