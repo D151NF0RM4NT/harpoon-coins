@@ -108,7 +108,7 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
               <a class="btn stamp-btn" id="shareX" href="#x">Captions ↓</a>
               <a class="btn ghost" id="followX" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Follow</a>
             </div>
-            <p class="fine" id="coinHint">Official token page — the contract address appears here when live.</p>
+            <p class="fine" id="coinHint">$ATLS is live on Pump. Soft giant. Hard bags. Verify CA.</p>
           </div>
         </article>
       </div>
@@ -128,13 +128,13 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
           </div>
         </div>
         <audio id="dogAudio" class="jrzy-audio" controls preload="metadata" playsinline controlslist="nodownload">
-          <source src="assets/audio/atlas-rap.mp3" type="audio/mpeg" />
+          <source src="assets/audio/atlas-rap.mp3?v=live2" type="audio/mpeg" />
         </audio>
         <div class="cta-row player-actions">
           <button class="btn primary mini" id="playToggle" type="button">Play</button>
-          <a class="btn mini" id="downloadTrack" href="assets/audio/atlas-rap.mp3" download="Atlas-Anthem.mp3">Download MP3</a>
+          <a class="btn mini" id="downloadTrack" href="assets/audio/atlas-rap.mp3?v=live2" download="Atlas-Anthem.mp3">Download MP3</a>
         </div>
-        <p class="fine" id="audioHint">Lyrics ready in <code>ATLAS_PACK/06_audio/lyrics.txt</code>. Drop ACE export at <code>assets/audio/atlas-rap.mp3</code>.</p>
+        <p class="fine" id="audioHint" hidden>Atlas anthem live · gentle giant skyline · ~90s</p>
       </div>
     </section>
 
@@ -160,9 +160,9 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
       <div class="model-viewer-wrap">
         <model-viewer
           id="meshViewer"
-          src="assets/Atlas.glb"
-          alt="3D model of Atlas"
-          poster="assets/trellis/atlas-trellis-MAIN.jpg"
+          src="assets/Atlas.glb?v=pixal1"
+          alt="3D model of Atlas the Great Dane"
+          poster="assets/atlas-anim-fullbody.jpg"
           auto-rotate
           rotation-per-second="28deg"
           camera-controls
@@ -172,11 +172,11 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
           style="width:100%;height:min(52vh,480px);background:#15110d;"
         ></model-viewer>
       </div>
-      <p class="fine model-hint">Drag to inspect. GLB lands at <code>assets/Atlas.glb</code> after Trellis2. Greytone plate below.</p>
+      <p class="fine model-hint" id="modelHint">Drag to inspect. Pixal3D mesh of Atlas — fullbody brand seed.</p>
       <div class="polaroid" style="max-width:260px;margin:1.25rem auto;">
         <div class="tape tape-top" aria-hidden="true"></div>
-        <img src="assets/trellis/atlas-trellis-MAIN.jpg" alt="Atlas Trellis MAIN plate" width="512" height="512" />
-        <p class="polaroid-caption">trellis MAIN</p>
+        <img src="assets/atlas-anim-fullbody.jpg" alt="Atlas fullbody seed" width="512" height="512" />
+        <p class="polaroid-caption">mesh seed</p>
       </div>
     </section>
 
@@ -353,15 +353,16 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
       const playToggle = document.getElementById("playToggle");
       const card = document.getElementById("playerCard");
       if (!audio) return;
+      const bust = "?v=live2";
       const candidates = [
-        "assets/audio/" + slug + "-rap.mp3",
-        "assets/audio/" + slug + "-anthem.mp3",
+        "assets/audio/" + slug + "-rap.mp3" + bust,
+        "assets/audio/" + slug + "-anthem.mp3" + bust,
       ];
       let idx = 0;
       function trySource(i) {
         if (i >= candidates.length) {
           status.textContent = "No MP3 yet — lyrics packed";
-          hint.hidden = false;
+          if (hint) hint.hidden = false;
           card.classList.add("missing");
           playToggle.disabled = true;
           return;

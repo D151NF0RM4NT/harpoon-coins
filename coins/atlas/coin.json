@@ -13,11 +13,13 @@
   "theme": "gentle giant skyline",
   "tagline": "Holds the skyline. Holds the bags. Soft giant energy.",
   "hook": "atlas tall, never let bags fall",
-  "image": "../assets/atlas-pump.png",
-  "pump_image": "../assets/atlas-pump.png",
-  "logo": "../assets/atlas-logo.jpg",
-  "audio": "../assets/audio/atlas-rap.mp3",
-  "anthem": "../assets/audio/atlas-rap.mp3",
+  "image": "assets/atlas-pump.png",
+  "pump_image": "assets/atlas-pump.png",
+  "logo": "assets/atlas-logo.jpg",
+  "audio": "assets/audio/atlas-rap.mp3",
+  "anthem": "assets/audio/atlas-rap.mp3",
   "anthem_title": "Atlas Anthem",
+  "anthem_genre": "epic gentle-giant anthem",
+  "glb": "assets/Atlas.glb",
   "telegram": "https://t.me/CryptoSmackTalk_bot"
 }
