@@ -35,12 +35,10 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
       <a href="#story">Story</a>
       <a href="#3d">3D</a>
       <a href="#memes">Evidence</a>
-      <a href="#x">X</a>
       <a href="#buy">Buy</a>
     </nav>
     <div class="top-social">
       <a class="btn mini stamp-btn" id="headerFollow" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Follow</a>
-      <a class="btn mini" id="headerShare" href="#x">Share</a>
     </div>
   </header>
 
@@ -105,7 +103,6 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
               <a class="btn primary" id="buyLink" href="#buy">Buy $ATLS</a>
               <a class="btn" id="pumpLink" href="#buy">Open on Pump</a>
               <a class="btn ghost" id="chartLink" href="#" hidden target="_blank" rel="noopener">Chart</a>
-              <a class="btn stamp-btn" id="shareX" href="#x">Captions ↓</a>
               <a class="btn ghost" id="followX" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Follow</a>
             </div>
             <p class="fine" id="coinHint">$ATLS is live on Pump. Soft giant. Hard bags. Verify CA.</p>
@@ -216,18 +213,6 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
       </div>
     </section>
 
-    <section id="x" class="panel">
-      <div class="section-head">
-        <h2>Copy → Paste on X</h2>
-        <p class="not" id="xBlurb">Ready-to-post captions with the live CA + Pump link.</p>
-      </div>
-      <div class="cta-row">
-        <a class="btn stamp-btn" id="xFollowMain" href="https://x.com/d151nf0rm4nt" target="_blank" rel="noopener">Open @d151nf0rm4nt</a>
-        <a class="btn" id="xCompose" href="https://x.com/compose/post" target="_blank" rel="noopener">Open X compose</a>
-      </div>
-      <div id="captionPack" class="caption-pack" aria-label="Ready captions"></div>
-      <p class="fine" id="captionNote">Captions include the live CA + Pump link.</p>
-    </section>
 
     <section id="buy" class="panel">
       <div class="section-head">
@@ -264,7 +249,6 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
 
   <script>
   (function () {
-    const CAPTIONS = ["Holds the skyline. Holds the bags. Soft giant energy. $ATLS", "Meet Atlas. Great Dane. atlas tall, never let bags fall. $ATLS", "Atlas said put the money in the bag. $ATLS", "Theme: gentle giant skyline. Chart later. $ATLS", "Too easy. Atlas already knew. $ATLS"];
     const symbol = "$ATLS";
     const name = "Atlas";
     const slug = "atlas";
@@ -278,28 +262,6 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
       }).catch(() => alert(t));
     }
 
-    function renderCaptions(extra) {
-      const pack = document.getElementById("captionPack");
-      if (!pack) return;
-      pack.innerHTML = "";
-      CAPTIONS.forEach((c, i) => {
-        const text = extra ? c + "\n" + extra : c;
-        const row = document.createElement("div");
-        row.className = "caption-row";
-        row.style.cssText = "margin:12px 0;padding:14px 16px;background:#2a2218;border:1px solid #3d342a;border-radius:8px;";
-        const pre = document.createElement("pre");
-        pre.style.cssText = "margin:0 0 10px;white-space:pre-wrap;font-family:inherit;font-size:0.95rem;line-height:1.45;";
-        pre.textContent = text;
-        const btn = document.createElement("button");
-        btn.className = "btn mini";
-        btn.type = "button";
-        btn.textContent = "Copy " + (i + 1);
-        btn.onclick = () => copyText(text, btn);
-        row.appendChild(pre);
-        row.appendChild(btn);
-        pack.appendChild(row);
-      });
-    }
 
     async function loadCoin() {
       let c = {};
@@ -332,8 +294,8 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
         chartLink.hidden = false;
         chartLink.href = "https://dexscreener.com/solana/" + ca;
         hint.textContent = "Verify CA in wallet. Copy a caption below and paste on X.";
-        renderCaptions(symbol + " " + pumpUrl + "\nCA: " + ca);
-        document.getElementById("captionNote").textContent = "Coin is live. Captions include CA + Pump.";
+        
+        
       } else {
         badge.textContent = "WAITING";
         caText.textContent = "Not live yet — check back soon.";
@@ -342,7 +304,7 @@ MODE: Persuade. The dog IS the product. Theme: gentle giant skyline.
         buyLink.onclick = block;
         pumpLink.onclick = block;
         pumpLinkBuy.onclick = block;
-        renderCaptions("");
+        
       }
     }
 
