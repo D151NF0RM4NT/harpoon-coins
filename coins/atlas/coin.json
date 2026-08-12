@@ -1,0 +1,23 @@
+{
+  "name": "Atlas",
+  "ticker": "ATLS",
+  "symbol": "$ATLS",
+  "chain": "Solana",
+  "ca": "CR8ymad3MSo1jGo55ScyWYD8H3MpR9wUC9E2UHuLpump",
+  "pump": "https://pump.fun/coin/CR8ymad3MSo1jGo55ScyWYD8H3MpR9wUC9E2UHuLpump",
+  "status": "live",
+  "twitter": "d151nf0rm4nt",
+  "twitter_handle": "d151nf0rm4nt",
+  "site_url": "https://d151nf0rm4nt.github.io/harpoon-coins/coins/atlas/",
+  "breed": "Great Dane",
+  "theme": "gentle giant skyline",
+  "tagline": "Holds the skyline. Holds the bags. Soft giant energy.",
+  "hook": "atlas tall, never let bags fall",
+  "image": "../assets/atlas-pump.png",
+  "pump_image": "../assets/atlas-pump.png",
+  "logo": "../assets/atlas-logo.jpg",
+  "audio": "../assets/audio/atlas-rap.mp3",
+  "anthem": "../assets/audio/atlas-rap.mp3",
+  "anthem_title": "Atlas Anthem",
+  "telegram": "https://t.me/CryptoSmackTalk_bot"
+}
